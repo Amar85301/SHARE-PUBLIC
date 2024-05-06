@@ -43,10 +43,10 @@ public class PurchaseOrder                    //......"POM" With "New Purchase" 
 			driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 			
 			//LOGIN
-			PO.UserName(driver).sendKeys("BtplAdmin");
+			PO.UserName(driver).sendKeys("TEST");
 			PO.ARROW1(driver).click();
 
-			PO.PassWord(driver).sendKeys("Fly123!@#");
+			PO.PassWord(driver).sendKeys("TEST");
 			PO.Login(driver).click();	
 			Thread.sleep(5000);
 
@@ -336,16 +336,6 @@ public class PurchaseOrder                    //......"POM" With "New Purchase" 
 			}
 		}
 		return Test_Amar;
-	
-		
-		
 		//Test
-
-
-	
-		
-		
-		
-
 	}}
 
